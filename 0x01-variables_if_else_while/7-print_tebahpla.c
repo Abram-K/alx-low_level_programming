@@ -12,6 +12,7 @@ int main(void)
 	{
 		putchar(ahpla);
 	}
+	putchar('\n');
 
 
 
