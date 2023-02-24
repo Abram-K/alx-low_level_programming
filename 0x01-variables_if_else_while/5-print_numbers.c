@@ -1,21 +1,20 @@
 #include <stdio.h>
 
 /**
- *main - For loop to iterate 0 - 9
+ *main - While loop to iterate 0 - 9
  *Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i;
-	for (i = 0 ; i < 10 ; i++)
+	int n = 0;
+
+	while (n < 10)
 	{
-		printf("%d", i);
+		printf("%i", n);
+		n++;
 	}
-	printf("\n");
-
-
-
+	putchar('\n');
 
 	return (0);
 }
