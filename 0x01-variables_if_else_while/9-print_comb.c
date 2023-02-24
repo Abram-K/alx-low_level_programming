@@ -7,14 +7,15 @@
 int main(void)
 {
 	int num;
+	int nine = 9;
 
-	for (num = 0 ; num < 10 ; num++)
+	for (num = 0 ; num < 9 ; num++)
 	{
 		putchar(48 + num);
 		putchar(',');
 		putchar(' ');
 	}
-	putchar('\n');
+	putchar(48 + nine);
 
 	return (0);
 }
