@@ -4,18 +4,22 @@
  *main - All possible combos 0 - 9
  *Return: 0 (Success)
  */
+
 int main(void)
 {
-	int num;
-	int nine = 9;
+	int n = '0';
 
-	for (num = 0 ; num < 9 ; num++)
+	while (n <= '9')
 	{
-		putchar(48 + num);
-		putchar(',');
-		putchar(' ');
+		putchar(n);
+		if (n != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		n++;
 	}
-	putchar(48 + nine);
+	putchar('\n');
 
 	return (0);
 }
